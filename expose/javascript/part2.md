@@ -41,5 +41,9 @@ true
 ### 15. Explain the difference between the == and === operators.
 Difference is that == first tries to convert the two to the same type and than compares whereas === skips conversions, meaning the operands must be the same types and same value to be equal
 ### 17.If the function above is called with the following parameters modifyArray([1,2,3], doSomething), what will be the result? Briefly walk through how you arrived at that result. (This should be in your part2.md). Here we are passing in a function as a parameter, however we can also return a function from another function just as easily, you're encouraged to play around with callbacks as they are used heavily in frontend JS development. 
-
+The result is [2,4,6]. I got this because each element from the original array is passed through doSomething which doubles the values. The new values are collected in a different array.
 ### 19. What is the output of the above code? 
+1
+4
+3
+2
